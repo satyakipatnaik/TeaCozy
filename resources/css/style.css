@@ -2,7 +2,6 @@
 body{
   font-family: Helvetica;
   color: seashell;
-  font-family: Helvitica;
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
@@ -20,7 +19,6 @@ header{
   top: 0px;
   width: 1260px;
   height: 69px;
-  z-index: 5;
   background-color: black;
   border-bottom: 1px solid seashell;
 }
@@ -57,13 +55,17 @@ a,p{
   color: seashell;
 }
 
+nav a{
+  text-decoration: underline;
+}
+
 .main-container{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   width:1260px;
-  height: 2000px;
+  height: 2200px;
   margin-top: 70px;
 }
 /*upper section - shop mission*/
@@ -93,7 +95,7 @@ a,p{
 }
 
 /*middle section - tea of the month*/
-.tea-of-month{
+#tea-of-month{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -102,7 +104,7 @@ a,p{
   height: 800px;
 }
 
-#featured{
+.featured{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -127,24 +129,31 @@ a,p{
   padding: 5px;
 }
 /*lower section - location address*/
-#location{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+
+#address{
   width: 1200px;
   height: 500px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   background-size: cover;
-  padding-top: 140px;
+  padding-top: 80px;
+  text-align: center;
 }
-.address{
+
+.location{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.street{
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
   background-color: black;
   width: 300px;
-  height: 270px;
-  margin: 10px 20px;
+  height: 250px;
+  margin: 15px 20px;
   opacity: 1;
 }
 
