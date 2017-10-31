@@ -121,6 +121,11 @@ nav a{
   margin: 10px 60px;
 }
 
+.featured img{
+  width:300px;
+  height:200px;
+}
+
 .Fall,
 .Spicy,
 .Donut,
